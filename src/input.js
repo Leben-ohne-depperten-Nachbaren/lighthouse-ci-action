@@ -68,6 +68,7 @@ function getArgs() {
     applicationGithubToken: getArg('applicationGithubToken'),
     personalGithubToken: getArg('personalGithubToken'),
     notifications: getList('notifications'),
+    netlifySite: getArg('netlifySite'),
     serverBaseUrl,
     token,
     rcCollect,
